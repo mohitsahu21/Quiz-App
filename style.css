@@ -25,6 +25,9 @@ body{
     box-shadow: 0px 0px 15px grey;
     border-radius: 5px;
     
+    
+    
+    
 }
 .row{
    width: 100%;
@@ -45,4 +48,14 @@ body{
 .btn:hover{
     background-color: #227093;
    
+}
+#box2{
+    width: 40%;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 15px grey;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+    
 }

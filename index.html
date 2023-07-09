@@ -9,7 +9,7 @@
 <body>
      <div class="main">
         <div id="box">
-            <h2>This is dummy qustion</h2>
+            <h2 id="quesBox">This is dummy qustion</h2>
             <div class="row">
                 <input class="options" id="option1"  type="radio" name="option" value="a">
                 <label for="option1">option1</label>
@@ -26,10 +26,17 @@
                 <input class="options" id="option4" type="radio" name="option" value="d">
                 <label for="option4">option4</label>
             </div>
-            <button class="btn">SUBMIT</button>
+            <button class="btn" onclick="submitQuiz()">SUBMIT</button>
+            
         </div>
+        <div id="box2">
+            <h3>Thank you for playing the quiz</h3>
+            <h2 id="score"></h2><br>
+            <button class="btn" onclick="playAgain()">PLAY AGAIN</button>
+            </div>
 
      </div>
+   
     
     <script src="script.js"></script>
 </body>
