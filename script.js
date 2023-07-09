@@ -91,6 +91,7 @@ const reset = ()=>{
     optionsInput.forEach(
         (input)=>{
             input.checked = false;
+            
         }
     )
 }
@@ -99,13 +100,14 @@ const endQuiz = ()=>{
     document.getElementById("box2").style.display = "block";
     document.getElementById("score").innerText = `Your score is ${right}/${total}`
 }
-const playAgain = ()=>{
-  index = 0;
-  right = 0;
-  wrong = 0;
-  document.getElementById("box").style.display = "block";
-  document.getElementById("box2").style.display = "none";
-  loadQustions();
+// const playAgain = ()=>{
 
-}
+//   index = 0;
+//   right = 0;
+//   wrong = 0;
+//   document.getElementById("box").style.display = "block";
+//   document.getElementById("box2").style.display = "none";
+//   loadQustions();
+
+// }
 loadQustions();
